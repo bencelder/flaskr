@@ -1,0 +1,8 @@
+virtualenv venv
+. venv/bin/activate
+export FLASK_APP=flaskr.py
+export FLASK_DEBUG=1
+flask run
+
+To set up the database, type
+flask initdb
